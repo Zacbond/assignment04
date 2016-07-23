@@ -1,0 +1,111 @@
+html, body{
+  margin: 0px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+
+nav {
+  height: 150px;
+  background-color: #D80000;
+  border: 6px ridge #F0F0F0;
+}
+
+
+ul.top-nav {
+  list-style-type: none;
+  float: right; 
+}
+
+ul.top-nav li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-top: 50px;
+  padding-right: 25px;
+}
+
+ul.top-nav li a {
+  color: black;
+  font-size: 25px;
+  font-family: times courier;
+  font-style: italic;
+}
+
+ul.top-nav li a:hover {
+  text-decoration: line-through;
+}
+
+#logo {
+  display: inline-block;
+  background-size: 165px;
+  height: 150px;
+  width: 150;
+  background-size: 165px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+body {
+    background-image: url(../images/form14.jpg);  
+    background-size: cover;
+}
+
+.go3 {
+  margin: 30px;
+  display: inline-block;
+  border-radius: 15px 50px 30px;
+  background: #D80000;
+  padding: 20px; 
+  width: 200px;
+  height: 270px;
+}
+
+.go3 p {
+    text-align: center;
+    text-decoration: overline;
+    font-family: times courier;
+    font-style: italic;
+    color: #F0F0F0;
+}
+
+.go4 {
+  float: center;
+  margin: 0px 20px 0px 150px; 
+  display: inline-block;
+  border-radius: 15px 50px 30px;
+  background: #D80000;
+  padding: 15px; 
+  width: 355px;
+  height: 260px;
+}
+
+.go4 p {
+    width: 105%;
+    text-align: center;
+    text-decoration: overline;
+    font-family: times courier;
+    font-style: italic;
+    color: #F0F0F0;
+}
+
+.go5 {
+  float: right;
+  margin: 40px;
+  display: inline-block;
+  border-radius: 15px 50px 30px;
+  background: #D80000;
+  padding: 20px; 
+  width: 200px;
+  height: 240px;
+}
+
+.go5 p {
+    text-align: center;
+    text-decoration: overline;
+    font-family: times courier;
+    font-style: italic;
+    color: #F0F0F0;
+}
